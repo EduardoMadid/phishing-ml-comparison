@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Ambiente virtual
+.venv/
+venv/
+env/
+
+# Dados (baixados externamente)
+data/
+*.csv
+!data/.gitkeep
+
+# Modelos treinados (ignorados por padrão — pesados/recriáveis)
+*.pkl
+*.joblib
+*.onnx
+# Exceção: o modelo vencedor (0.4MB) vai versionado para o Docker funcionar no clone
+!models/phishing_model.joblib
+
+# Notebooks Jupyter
+.ipynb_checkpoints/
+
+# Editores e SO
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Segredos
+.env
+*.key
+*.pem
+
+# Logs
+*.log
