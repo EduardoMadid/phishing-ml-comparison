@@ -179,7 +179,7 @@ phishing-ml-comparison/
 ## 🚀 How to run
 
 ```bash
-git clone <repo-url> && cd phishing-ml-comparison
+git clone https://github.com/EduardoMadid/phishing-ml-comparison.git && cd phishing-ml-comparison
 
 # Option A — the API (winner), containerized
 docker compose up -d --build
